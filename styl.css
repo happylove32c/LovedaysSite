@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/*font-family: 'Tektur', cursive;*/
+	font-family: 'poppins' sans-serif;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #333;
+}
+
+.container h1{
+	font-size: 12rem;
+	background: linear-gradient(rgb(61, 124, 205), rgb(69, 214, 202));
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
